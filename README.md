@@ -27,15 +27,13 @@ The data set contains the following diseases:
     Squamous cell carcinoma
     Vascular lesion
 
-    ![alt text](Untitled-1.png)
+Under the exercise we have completed and re-iterated the following:
+Model Building & training : 
 
-    Under the exercise we have completed and re-iterated the following:
-    Model Building & training : 
-
-    a. Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model, rescale images to normalize pixel values between (0,1).
-    b. Choose an appropriate optimiser and loss function for model training
-    c. Train the model for ~20 epochs
-    d. Write your findings after the model fit. You must check if there is any evidence of model overfit or underfit.
+a. Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model, rescale images to normalize pixel values between (0,1).
+b. Choose an appropriate optimiser and loss function for model training
+c. Train the model for ~20 epochs
+d. Write your findings after the model fit. You must check if there is any evidence of model overfit or underfit.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
