@@ -42,13 +42,7 @@ d. Write your findings after the model fit. You must check if there is any evide
 
 Observations:
 
-    The ultimate model showcases well-balanced performance, displaying no signs of underfitting or overfitting.
-
-    The implementation of class rebalancing has enhanced the model's performance across both training and validation datasets wrt loss function
-
-    Following 37 epochs, the final model attains an accuracy of 84% on the training set and approximately 79% on the validation set.
-
-    The narrow divergence between training and validation accuracies underscores the robust generalization capability of the final CNN model.
+   The model earlier showed overfitting where the data was showing greater accuracy on train data vs validation data. With data augmentation, the divergence between accuracy of training and test reduced, hence, overfitting was reduced, however class imbalance existed. With batch normalization, and greater number of epochs ~50, the accuracy and training loss improved
 
 
 
